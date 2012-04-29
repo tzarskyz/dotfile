@@ -1,0 +1,29 @@
+[user]
+	name = Thiago Avelino
+	email = thiagoavelinoster@gmail.com
+[github]
+	user = avelino
+	token = f2980203efd0312c074f2287ec73e135
+[color]
+    ui = auto
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    new = green bold
+[core]
+	excludesfile = /Users/avelino/.gitignore_global
+	editor = /usr/bin/vim
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[alias]
+    st = status
+    ci = commit -v
+    commit = commit -v
