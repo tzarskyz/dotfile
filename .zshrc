@@ -47,6 +47,7 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0_31-b04-415.jdk/Contents
 alias sb='open -a "Sublime Text 2"'
 alias grep='ack'
 alias tmux="TERM=screen-256color-bce tmux"
+alias mongod="mongod run --config /usr/local/etc/mongod.conf"
 
 # AWS Amazon
 # export AWS_CREDENTIAL_FILE=$HOME/.aws/aws_credential_file
