@@ -1,2 +1,6 @@
-dotfile
-=======
+# dotfile
+
+
+## Install 
+
+    $ ln -s .* ~/
