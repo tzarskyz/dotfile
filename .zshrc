@@ -46,6 +46,11 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents
 # PostgreSQL
 export PGDATA='/usr/local/var/postgres/'
 
+# Oracle
+export ORACLE_HOME=/usr/local/var/instantclient_10_2
+export DYLD_LIBRARY_PATH=$ORACLE_HOME
+export LD_LIBRARY_PATH=$ORACLE_HOME
+
 # Alias
 alias sb='open -a "Sublime Text 2"'
 alias grep='ack'
