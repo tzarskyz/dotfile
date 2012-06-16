@@ -41,13 +41,16 @@ export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/share/python/virtualenvwrapper.sh
 
 # Java Set 
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0_31-b04-415.jdk/Contents/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Home
+
+# PostgreSQL
+export PGDATA='/usr/local/var/postgres/'
 
 # Alias
 alias sb='open -a "Sublime Text 2"'
 alias grep='ack'
 alias tmux="TERM=screen-256color-bce tmux"
-alias mongod="mongod run --config /usr/local/etc/mongod.conf"
+# alias mongod="mongod run --config /usr/local/etc/mongod.conf"
 
 # AWS Amazon
 # export AWS_CREDENTIAL_FILE=$HOME/.aws/aws_credential_file
