@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="gentoo"
+ZSH_THEME="risto"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -64,3 +64,6 @@ export EC2_PRIVATE_KEY=$HOME/Dropbox/nodegrid/pem/pk-3F6JNV5BIYQ3ENQWM4NS3QPABF4
 export AWS_RDS_HOME=$HOME/Dropbox/nodegrid/aws/RDSCli-1.8.001
 export PATH=$PATH:$AWS_RDS_HOME/bin/
 export PATH=$PATH:$HOME/Dropbox/nodegrid/aws/elasticbeanstalk-cli/elasticbeanstalk-cli/bin
+
+export LC_ALL=en_GB.UTF-8
+export LANG=en_GB.UTF-8
