@@ -3,4 +3,4 @@
 
 ## Install 
 
-    $ ln -s .* ~/
+    $ ln -s $(pwd)/.* ~/
