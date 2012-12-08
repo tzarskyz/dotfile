@@ -1,11 +1,12 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
+export TERM="xterm-256color"
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="risto"
+ZSH_THEME="powerline"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -29,12 +30,13 @@ ZSH_THEME="risto"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(brew git github python django pip)
+plugins=(brew git github python django pip zsh-syntax-highlighting-filetypes zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
+source ~/Sites/dotfile/enable_powerline
 
 # Customize to your needs...
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/share/python
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/share/python:$HOME/.rvm/bin 
 
 # Python Set
 export WORKON_HOME=$HOME/.virtualenvs
@@ -42,6 +44,9 @@ source /usr/local/share/python/virtualenvwrapper.sh
 
 # Java Set 
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Home
+
+# Ruby Set
+source /Users/avelino/.rvm/scripts/rvm
 
 # PostgreSQL
 export PGDATA='/usr/local/var/postgres/'
@@ -67,3 +72,5 @@ export PATH=$PATH:$HOME/Dropbox/nodegrid/aws/elasticbeanstalk-cli/elasticbeansta
 
 export LC_ALL=en_GB.UTF-8
 export LANG=en_GB.UTF-8
+
+#eval $( dircolors -b ~/Sites/dotfile/LS_COLORS/LS_COLORS )

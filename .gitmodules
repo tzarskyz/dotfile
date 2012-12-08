@@ -1,0 +1,6 @@
+[submodule "powerline-zsh"]
+	path = powerline-zsh
+	url = https://github.com/carlcarl/powerline-zsh.git
+[submodule "LS_COLORS"]
+	path = LS_COLORS
+	url = https://github.com/trapd00r/LS_COLORS.git
