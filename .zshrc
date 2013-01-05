@@ -6,7 +6,7 @@ export TERM="xterm-256color"
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="powerline"
+ZSH_THEME="robbyrussell"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -33,7 +33,6 @@ ZSH_THEME="powerline"
 plugins=(brew git github python django pip zsh-syntax-highlighting-filetypes zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
-source ~/Sites/dotfile/enable_powerline
 
 # Customize to your needs...
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/share/python:$HOME/.rvm/bin 
@@ -72,5 +71,3 @@ export PATH=$PATH:$HOME/Dropbox/nodegrid/aws/elasticbeanstalk-cli/elasticbeansta
 
 export LC_ALL=en_GB.UTF-8
 export LANG=en_GB.UTF-8
-
-#eval $( dircolors -b ~/Sites/dotfile/LS_COLORS/LS_COLORS )
