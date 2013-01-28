@@ -6,7 +6,8 @@ export TERM="xterm-256color"
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="risto"
+ZSH_THEME="minimal"
+#ZSH_THEME="risto"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -35,7 +36,7 @@ plugins=(brew git github python django pip zsh-syntax-highlighting-filetypes zsh
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/share/python:$HOME/.rvm/bin 
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/share/python:$HOME/.rvm/bin:/usr/local/Cellar/rabbitmq/3.0.1/sbin 
 
 # Python Set
 export WORKON_HOME=$HOME/.virtualenvs
@@ -59,6 +60,7 @@ export LD_LIBRARY_PATH=$ORACLE_HOME
 alias sb='open -a "Sublime Text 2"'
 alias grep='ack'
 alias tmux="TERM=screen-256color-bce tmux"
+alias G="git"
 # alias mongod="mongod run --config /usr/local/etc/mongod.conf"
 
 # AWS Amazon
