@@ -6,7 +6,7 @@ export TERM="xterm-256color"
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="minimal"
+ZSH_THEME="philips"
 #ZSH_THEME="risto"
 
 # Example aliases
@@ -61,6 +61,7 @@ alias sb='open -a "Sublime Text 2"'
 alias grep='ack'
 alias tmux="TERM=screen-256color-bce tmux"
 alias G="git"
+alias ctags=/usr/local/bin/ctags
 # alias mongod="mongod run --config /usr/local/etc/mongod.conf"
 
 # AWS Amazon
