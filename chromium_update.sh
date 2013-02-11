@@ -28,4 +28,6 @@ echo "   install latest version: $CHROME_VERSION"
 echo '..'
 mv chrome-mac/Chromium.app /Applications/Chromium.app
 rm -rf chrome-mac chrome-mac.zip
+killall -9 Chromium
+open /Applications/Chromium.app
 echo 'DONE'
